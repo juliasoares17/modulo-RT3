@@ -1,0 +1,26 @@
+{
+  "name": "modulo-rt3",
+  "version": "1.0.0",
+  "description": "modulo para a terceira atividade para revisao de typescript, passada pelo professor gerson da pinha neto",
+  "keywords": [
+    "soma",
+    "subtracao",
+    "divisao",
+    "multiplicacao"
+  ],
+  "homepage": "https://github.com/juliasoares17/modulo-RT3#readme",
+  "bugs": {
+    "url": "https://github.com/juliasoares17/modulo-RT3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliasoares17/modulo-RT3.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "metodos.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
