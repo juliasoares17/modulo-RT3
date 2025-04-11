@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Divisor = exports.Multiplicador = exports.Subtrador = exports.Somador = void 0;
 class Somador {
     constructor() {
         this.calcular = (numero1, numero2) => {
@@ -8,7 +5,6 @@ class Somador {
         };
     }
 }
-exports.Somador = Somador;
 class Subtrador {
     constructor() {
         this.calcular = (numero1, numero2) => {
@@ -16,7 +12,6 @@ class Subtrador {
         };
     }
 }
-exports.Subtrador = Subtrador;
 class Divisor {
     constructor() {
         this.calcular = (numero1, numero2) => {
@@ -24,7 +19,6 @@ class Divisor {
         };
     }
 }
-exports.Divisor = Divisor;
 class Multiplicador {
     constructor() {
         this.calcular = (numero1, numero2) => {
@@ -32,4 +26,4 @@ class Multiplicador {
         };
     }
 }
-exports.Multiplicador = Multiplicador;
+export { Somador, Subtrador, Multiplicador, Divisor };
