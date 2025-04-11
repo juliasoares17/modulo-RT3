@@ -18,9 +18,13 @@
   },
   "license": "ISC",
   "author": "",
+  "types": "out/metodos.d.ts",
   "type": "module",
-  "main": "metodos.ts",
+  "main": "out/metodos.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "modulo-rt3": "file:"
   }
 }
